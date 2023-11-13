@@ -2,7 +2,7 @@
 challenge #12 - SQL
 
 # Description
-Hello and welcome to my application. Let me give you a quick rundown of the how and why I created it! This app is meant to make writing a readme for a project quicker and easier. This way more time can be spent coding while still having a professional readme
+Hello and welcome to my application. 
 
 # Table of Content
 
@@ -16,7 +16,7 @@ Hello and welcome to my application. Let me give you a quick rundown of the how 
 
 # Installation
 
-Link to video can be found here -> [Google Drive link for screen recording](https://drive.google.com/file/d/1eBCj28YHtWr0f4N_2VRq9CBDhgJuNPe5/view)
+Link to video can be found here -> [Google Drive link for screen recording]()
    
 # Usage
 
@@ -24,12 +24,12 @@ from the command line while in the repo you can initiate the app using "node ind
 * Requires these be installed before initialization
 * [Node.JS](https://nodejs.org/en)
 * [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)  
+* [MySQL2 package](https://www.npmjs.com/package/mysql2)
     
 
 # Credits
   
-I received help from Justin Moore(Tutor) with switch functions. Base code was taken from OSU-VIRT-FSF-PT-08-2023-U-LOLC/10-OOP to start the index.js and generateMarkdown.js files
-License Badge links used can be found here -> [License badge](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+I used information provided in the OSU-VIRT-FSF-PT-08-2023-U-LOLC repo as a guideline on how to create this application. 
 
 # License
 
@@ -59,7 +59,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     
    
 # Features
-The project is working as intended with no bugs found so far
+The project is working as intended with no bugs found
 
 # Contribute
-If you would like to contribute to my app I am currently working on implementing these new functions or fixing these bugs: N/A
+
