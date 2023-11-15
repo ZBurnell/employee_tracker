@@ -2,7 +2,7 @@
 challenge #12 - SQL
 
 # Description
-Hello and welcome to my application. 
+I set out to create a command line application that would allow an employeer to track their employees by a few different criteria. This project was tough and needs some work to be fully polished and working. I am looking forward to developing this further and impleminting a few changes to get it functioning as it should.
 
 # Table of Content
 
@@ -12,11 +12,10 @@ Hello and welcome to my application.
 4. [Credits](#credits)
 5. [License](#license)
 6. [Features](#features)
-7. [Contribute](#contribute)
 
 # Installation
 
-Link to video can be found here -> [Google Drive link for screen recording]()
+Link to video can be found here -> [Google Drive link for screen recording](https://drive.google.com/file/d/1CsGpae1OmsfsBgcuZ79ulgz3Wk_vUwTO/view)
    
 # Usage
 
@@ -29,7 +28,7 @@ from the command line while in the repo you can initiate the app using "node ind
 
 # Credits
   
-I used information provided in the OSU-VIRT-FSF-PT-08-2023-U-LOLC repo as a guideline on how to create this application. 
+I used information provided in the OSU-VIRT-FSF-PT-08-2023-U-LOLC repo as a guideline on how to create this application. I also utilized the Xpert Learning Assistant and Stack over flow when errors would Command line errors would pop up.. 
 
 # License
 
@@ -59,7 +58,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     
    
 # Features
-The project is working as intended with no bugs found
+This project is currently not running properly
 
-# Contribute
 
