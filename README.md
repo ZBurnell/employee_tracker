@@ -2,7 +2,7 @@
 challenge #12 - SQL
 
 # Description
-I set out to create a command line application that would allow an employeer to track their employees by a few different criteria. This project was tough and needs some work to be fully polished and working. I am looking forward to developing this further and impleminting a few changes to get it functioning as it should.
+I set out to create a command line application that would allow an employer to track their employees by looking at a few simple tables. This project was tough and challenged me. In the end I am happy I was able to fully implement everything I set out to when beginning this project.
 
 # Table of Content
 
@@ -15,7 +15,7 @@ I set out to create a command line application that would allow an employeer to 
 
 # Installation
 
-Link to video can be found here -> [Google Drive link for screen recording](https://drive.google.com/file/d/1CsGpae1OmsfsBgcuZ79ulgz3Wk_vUwTO/view)
+Link to video can be found here -> [Google Drive link for screen recording]()
    
 # Usage
 
