@@ -14,7 +14,7 @@ var employee_database = function () {
             type: 'list',
             message: "Which action would you like to take?",
             name: 'prompt',
-            choices: ["View All Employees", "View All Roles", "View All Departments", "Add Employee",  "Add Role", "Update Employee role", "Add Department", "Quit"] 
+            choices: ["View All Employees", "View All Roles", "View All Departments", "Add Employee",  "Add Role", "Update Employee Role", "Add Department", "Quit"] 
     //  View all of the emplyees currently listed in the database
     }]).then((answers) => {
         if (answers.prompt === 'View All Employees') {
@@ -36,12 +36,12 @@ var employee_database = function () {
     }else if (answers.prompt === 'View All Departments') {
         db.query(`SELECT * FROM department`, (err, result) => {
             if (err) throw err;
-            console.log("Viewing All Departments: ");
+            console.log('Viewing All Departments: ');
             console.table(result);
             employee_database();
         });
     //  Adding a new employee to the database
-    } else if (answers.prompt === 'Add An Employee') {
+    } else if (answers.prompt === 'Add Employee') {
         db.query(`SELECT * FROM employee, role`, (err, result) => {
             if (err) throw err;
             inquirer.prompt([
@@ -107,7 +107,7 @@ var employee_database = function () {
             })
         });
     //  Adding a new role to the database
-    } else if (answers.prompt === 'Add A Role') {
+    } else if (answers.prompt === 'Add Role') {
         db.query(`SELECT * FROM department`, (err, result) => {
             if (err) throw err;
             inquirer.prompt([
@@ -117,6 +117,8 @@ var employee_database = function () {
                     validate: roleInput => {
                         if (roleInput) {
                             return true;
+                        } else {
+                            return false;
                         }
                     }
                 },
@@ -126,6 +128,8 @@ var employee_database = function () {
                     validate: salaryInput => {
                         if (salaryInput) {
                             return true;
+                        }  else {
+                            return false;
                         }
                     }
                 },
@@ -154,7 +158,7 @@ var employee_database = function () {
             })
         });
     // Updating a current employees role
-    } else if (answers.prompt === 'Update An Employee Role') {
+    } else if (answers.prompt === 'Update Employee Role') {
         db.query(`SELECT * FROM employee, role`, (err, result) => {
             if (err) throw err;
             inquirer.prompt([
@@ -194,13 +198,13 @@ var employee_database = function () {
                 }
                 db.query(`UPDATE employee SET ? WHERE ?`, [{role_id: role}, {last_name: name}], (err, result) => {
                     if (err) throw err;
-                    console.log(`Updated ${answers.employee} role to the database.`)
+                    console.log(`Updated ${answers.employee} role in the database.`)
                     employee_database();
                 });
             })
         }); 
         // Adding a new department to the database
-        } else if (answers.prompt === 'Add A Department') {
+        } else if (answers.prompt === 'Add Department') {
             inquirer.prompt([{
                 type: 'input',
                 name: 'department',

@@ -1,8 +1,8 @@
 # employee_tracker
-challenge #12 - SQL
+OSU Fullstack Bootcamp - Week 12 Challenge
 
 # Description
-I set out to create a command line application that would allow an employer to track their employees by looking at a few simple tables. This project was tough and challenged me. In the end I am happy I was able to fully implement everything I set out to when beginning this project.
+I set out to create a command line application that would allow an employer to track their employees by looking at a few simple tables. An emplyer is able to quickly search and see what employees are currently working for their company, what their title, Salary and who their manager is. On top of all of that they are also able to make changes to their roles as well as add new employees to the database. This project was tough and really challenged me at times. In the end I am happy with how I was able to implement everything I set out to do at the beginning of the project. Thiscould also be a helpful tool to use in the future for quickly storing information in a MySQL database. 
 
 # Table of Content
 
@@ -15,12 +15,14 @@ I set out to create a command line application that would allow an employer to t
 
 # Installation
 
-Link to video can be found here -> [Google Drive link for screen recording]()
+Link to video can be found here -> [Google Drive link for screen recording](https://drive.google.com/file/d/1kUkjolXm3YhMCKjVfL2xjXrOB91sCZbK/view)
    
 # Usage
 
-from the command line while in the repo you can initiate the app using "node index.js".
-* Requires these be installed before initialization
+from the command line while in the repo you can initiate the app using "node index.js". Video will also be linked that shows how to start and use the application.
+
+ Requires these add ons before initialization in the command line.
+
 * [Node.JS](https://nodejs.org/en)
 * [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)  
 * [MySQL2 package](https://www.npmjs.com/package/mysql2)
@@ -58,6 +60,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     
    
 # Features
-This project is currently not running properly
+This project is fully fuctional. Take a look and see how easy it is to add to the database!
 
 
